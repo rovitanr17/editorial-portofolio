@@ -18,7 +18,7 @@ export default function Home() {
        </nav>
      </header>
 
-     
+
       {/* Main Content */}
       <section className="flex flex-1 flex-col justify-center">
 
@@ -35,7 +35,7 @@ export default function Home() {
           className="mt-12 flex flex-wrap gap-x-8 gap-y-4 text-base"
         >
           <Link href="/cv" className="hover:underline">
-            CV ↗
+            CV 
           </Link>
 
           <a
@@ -44,16 +44,16 @@ export default function Home() {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            Blog ↗
+            Blog 
           </a>
 
           <a
-            href="https://github.com/YOURUSERNAME"
+            href="https://github.com/rovitanr17"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            GitHub ↗
+            GitHub 
           </a>
 
           <a
@@ -62,7 +62,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            LinkedIn ↗
+            LinkedIn 
           </a>
         </nav>
 

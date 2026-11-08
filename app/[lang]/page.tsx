@@ -94,7 +94,7 @@ export default async function HomePage({
           className="mt-12 flex flex-wrap gap-x-8 gap-y-4 text-base"
         >
           <Link href={`/${lang}/cv`} className="hover:underline">
-            {t.cv} ↗
+            {t.cv} 
           </Link>
 
           <a
@@ -103,16 +103,16 @@ export default async function HomePage({
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            {t.blog} ↗
+            {t.blog} 
           </a>
 
           <a
-            href="https://github.com/YOURUSERNAME"
+            href="https://github.com/rovitanr17"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            GitHub ↗
+            GitHub 
           </a>
 
           <a
@@ -121,7 +121,7 @@ export default async function HomePage({
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            LinkedIn ↗
+            LinkedIn 
           </a>
         </nav>
       </section>
