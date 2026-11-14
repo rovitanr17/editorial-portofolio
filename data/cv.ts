@@ -1,3 +1,4 @@
+import { title } from "process";
 
 export const cvData = {
   en: {
@@ -16,6 +17,26 @@ export const cvData = {
         "Aspiring Data Analyst with a background in Medical Informatics, healthcare processes, and data-driven problem solving.",
     },
 
+    
+     education: [
+      {title: "Bachelor´s studies in Digital Medicine",
+      institution: "Technische Hochschule Mittelhessen",
+      description: "Bachelor´s studies in Digital Medicine. Previously studied Medical Informatics (2021-2026)"
+      },
+      
+      { title:"Studienkolleg Hochschule Wismar",
+        period:"2020-2021",
+        description:"Festellungsprüfung (University entrance qualification exam)",
+      },
+
+      { title:"SMAN 7 Surakarta",
+        period:"2015-2018",
+        description:"Upper secondary education with a focus on natural science",
+      },
+    
+     ],
+    
+
     experience: {
       title: "Healthcare IT & Process Analysis",
       subtitle: "Practical experience in clinical environments",
@@ -23,10 +44,7 @@ export const cvData = {
         "Supported administrative workflows, clinical documentation, and digital process analysis in healthcare settings.",
     },
 
-    education: {
-      title: "Medical Informatics",
-      institution: "Technische Hochschule Mittelhessen",
-    },
+   
 
     projects: {
       title: "Streaming Success Analysis",
@@ -97,6 +115,27 @@ export const cvData = {
       description:
         "Angehende Data Analystin mit einem Hintergrund in Medizinischer Informatik, klinischen Prozessen und datenbasierter Problemlösung.",
     },
+    
+
+    education: [
+    {
+      title: "Bachelorstudium in Digitale Medizin",
+      institution: "Technische Hochschule Mittelhessen",
+      description:"Bachelorstudium Digital Medizin. Zuvor Studium der Medizinischen Informatik (2021-2026)",
+    },
+
+    { title:"Studienkolleg Hochschule Wismar",
+        period:"2020-2021",
+        description:"Festellungsprüfung",
+      },
+
+      { title:"SMAN 7 Surakarta",
+        period:"2015-2018",
+        description:"Oberschule mit naturwissenschaftlichem Schwerpunkt",
+      },
+
+
+  ],
 
     experience: {
       title: "IT im Gesundheitswesen & Prozessanalyse",
@@ -105,10 +144,7 @@ export const cvData = {
         "Unterstützung administrativer Abläufe, klinischer Dokumentationsprozesse und der Analyse digitaler Arbeitsabläufe im Gesundheitswesen.",
     },
 
-    education: {
-      title: "Medizinische Informatik",
-      institution: "Technische Hochschule Mittelhessen",
-    },
+    
 
     projects: {
       title: "Streaming Success Analysis",

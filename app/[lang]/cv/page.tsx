@@ -56,8 +56,8 @@ export default async function CVPage({
 
       {/* Navigation */}
       <nav className="mb-12 flex flex-wrap gap-4 text-sm text-[#666666]">
-        <a href="#experience">{t.navigation.experience}</a>
-        <a href="#education">{t.navigation.education}</a>
+        <a href="#experience">{t.navigation.education}</a>
+        <a href="#education">{t.navigation.experience}</a>
         <a href="#projects">{t.navigation.projects}</a>
         <a href="#skills">{t.navigation.skills}</a>
         <a href="#languages">{t.navigation.languages}</a>
@@ -73,6 +73,29 @@ export default async function CVPage({
           {t.profile.description}
         </p>
       </section>
+
+      {/* Education */}
+<section id="education" className="mb-16 border-t pt-8">
+        <h2 className="mb-8 text-2xl font-semibold">
+          {t.navigation.education}
+        </h2>
+
+  <div className="space-y-8">
+    {t.education.map((entry) => (
+       <article key={entry.title}>
+        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+            <h3 className="text-lg font-medium">{entry.title}</h3>
+
+            {entry.period && (
+              <p className="text-sm text-[#666666]">{entry.period}</p>
+            )}
+        </div>
+
+        <p className="mt-2 text-[#666666]">{entry.description}</p>
+      </article>
+    ))}
+  </div>
+</section>
 
       {/* Experience */}
       <section id="experience" className="mb-16 border-t pt-8">
@@ -95,20 +118,7 @@ export default async function CVPage({
         </article>
       </section>
 
-      {/* Education */}
-      <section id="education" className="mb-16 border-t pt-8">
-        <h2 className="mb-8 text-2xl font-semibold">
-          {t.navigation.education}
-        </h2>
-
-        <h3 className="text-lg font-medium">
-          {t.education.title}
-        </h3>
-
-        <p className="mt-2 text-[#777777]">
-          {t.education.institution}
-        </p>
-      </section>
+      
 
       {/* Projects */}
       <section id="projects" className="mb-16 border-t pt-8">
