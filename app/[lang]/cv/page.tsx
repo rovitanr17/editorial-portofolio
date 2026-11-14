@@ -98,25 +98,33 @@ export default async function CVPage({
 </section>
 
       {/* Experience */}
-      <section id="experience" className="mb-16 border-t pt-8">
-        <h2 className="mb-8 text-2xl font-semibold">
-          {t.navigation.experience}
-        </h2>
+<section id="experience" className="mb-16 border-t pt-8">
+  <h2 className="mb-8 text-2xl font-semibold">
+    {t.navigation.experience}
+  </h2>
 
-        <article>
-          <h3 className="text-lg font-medium">
-            {t.experience.title}
-          </h3>
+  <div className="space-y-8">
+    {t.experience.map((entry) => (
+      <article key={`${entry.organization}-${entry.title}`}>
+        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+          <h3 className="text-lg font-medium">{entry.title}</h3>
 
-          <p className="mt-1 text-sm text-[#777777]">
-            {t.experience.subtitle}
-          </p>
+          {entry.period && (
+            <p className="text-sm text-[#666666]">{entry.period}</p>
+          )}
+        </div>
 
-          <p className="mt-4 leading-relaxed">
-            {t.experience.description}
-          </p>
-        </article>
-      </section>
+        <p className="mt-1 text-sm text-[#777777]">{entry.organization}</p>
+
+        <ul className="mt-3 list-disc space-y-2 pl-5 leading-relaxed">
+          {entry.points.map((point) => (
+            <li key={point}>{point}</li>
+          ))}
+        </ul>
+      </article>
+    ))}
+  </div>
+</section>
 
       
 

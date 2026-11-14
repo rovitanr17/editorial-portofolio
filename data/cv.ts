@@ -37,12 +37,53 @@ export const cvData = {
      ],
     
 
-    experience: {
-      title: "Healthcare IT & Process Analysis",
-      subtitle: "Practical experience in clinical environments",
-      description:
-        "Supported administrative workflows, clinical documentation, and digital process analysis in healthcare settings.",
-    },
+    experience: [
+      { 
+       title: "Workingstudent in Project and Quality Management",
+       organization:"BDH-Klinik Braunfels",
+       period:"April-Juni 2026",
+       points:[
+        "Translated findings from the workflow analysis into requirements for a centralized archive management system and documented them in a functional specification.",
+        "Created an entity-relationship model for patient cases, document types, archive boxes, and storage locations.",
+        "Designed interface mockups for record search, retention tracking, and documenting record disposal.",
+       ],
+      },
+
+      {
+        title: "Project and Quality Management Intern",
+        organization: "BDH-Klinik Braunfels",
+        period: "January-March 2026",
+        points: [
+          "Analyzed clinical and administrative workflows, focusing on how patient records moved from hospital wards to the archive.",
+          "Mapped existing workflows for patient record archiving and invoice processing in the finance department.",
+          "Examined handoffs across hospital wards, archives, IT, materials management, and finance to inform the subsequent project phase.",
+        ],
+      },
+      { 
+        title: "Student Assistant in a Psychiatric Outpatient Clinic",
+        organization: "Dr.Soedirman Mangun Sumarso Hospital · Indonesia",
+        period: "March-April 2025",
+        points: [
+          "Coordinated appointments and maintained patient records.",
+          "Prepared patient files for consultations and provided administrative support to physicians during clinic hours.",
+        ],
+      },
+      {
+        title: "Content Writer",
+        organization: "Paradigma.idn on Instagram",
+        period: "March-September 2022",
+        points: [
+         "Created engaging content for Instagram posts focusing on personal development, habits, and emotion management.",
+         "Contributed to the account'sgrowth through content creation.The account recorded 100,000+ views and gained 50,000+ new followers during this period."
+        ]
+        },
+      {
+       title: "Student Assistant",
+       organization: "GPE System GmbH · Dassow, Germany",
+       period: "June-August 2020",
+       points: [],
+      },
+  ],
 
    
 
@@ -99,6 +140,8 @@ export const cvData = {
 
     spokenLanguages: "Indonesian · English · German",
   },
+ 
+
 
   de: {
     navigation: {
@@ -137,12 +180,56 @@ export const cvData = {
 
   ],
 
-    experience: {
-      title: "IT im Gesundheitswesen & Prozessanalyse",
-      subtitle: "Praktische Erfahrung im klinischen Umfeld",
-      description:
-        "Unterstützung administrativer Abläufe, klinischer Dokumentationsprozesse und der Analyse digitaler Arbeitsabläufe im Gesundheitswesen.",
+    experience: [
+
+      {
+        title: "Werkstudentin im Projekt- und Qualitätsmanagement – Projektphase",
+        organization: "BDH-Klinik Braunfels",
+        period: "April–Juni 2026",
+        points: [
+           "Leitete aus der Ist-Analyse Anforderungen an eine zentrale Archivverwaltung ab und dokumentierte sie in einem Pflichtenheft.",
+           "Erstellte ein ER-Modell für Fälle, Dokumenttypen, Archivkartons und Lagerorte.",
+           "Entwarf Benutzeroberflächen für die Aktensuche, die Fristenüberwachung und die Dokumentation der Aktenvernichtung.",
+        ],
+      },
+      { 
+        title: "Praktikum im Projekt- und Qualitätsmanagement",
+        organization: "BDH-Klinik Braunfels",
+        period: "Januar-März 2026",
+        points: [
+            "Analysierte klinische und administrative Abläufe mit Fokus auf den Weg von Patientenunterlagen von der Station bis ins Archiv.",
+            "Erstellte Ist-Prozessdiagramme für die Patientenaktenarchivierung und die Rechnungsbearbeitung in der Finanzbuchhaltung.",
+            "Untersuchte die Übergaben zwischen Stationen, Archiv, IT, Materialwirtschaft und Finanzbuchhaltung als Grundlage für die anschließende Projektphase.",
+        ],
+    }, 
+    
+    {
+      title: "Werkstudentin als Arzthelferin in der psychiatrischen Poliklinik",
+      organization: "Krankenhaus Dr. Soedirman Mangun Sumarso · Indonesien",
+      period: "März–April 2025",
+      points: [
+       "Koordinierte Termine und pflegte Patientendaten.",
+       "Bereitete Patientenakten für die Sprechstunde vor und unterstützte das ärztliche Team bei administrativen Aufgaben.",
+     ],
     },
+    {
+      title: "Autorin für Social-Media-Inhalte",
+      organization: "Paradigma.idn · Instagram",
+      period: "März-September 2022",
+      points: [
+         "Verfasste Instagram-Beiträge zu persönlicher Entwicklung, zum Aufbau von Gewohnheiten und zum Umgang mit Emotionen.",
+         "Unterstützte das Wachstum des Instagram-Kanals mit redaktionellen Beiträgen. Der Kanal verzeichnete in diesem Zeitraum über 100.000 Aufrufe und gewann mehr als 50.000 neue Follower.",
+      ],
+   },
+   {
+      title: "Studentische Hilfskraft",
+      organization: "GPE System GmbH · Dassow, Deutschland",
+      period: "Juni–August 2020",
+      points: [],
+    },
+
+    ],
+
 
     
 
